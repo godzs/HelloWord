@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-      /* Button button =(Button)findViewById(R.id.button);
+       Button button =(Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View v)
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                TextView name=findViewById(R.id.text1);
                name.setText("hahaha");
             }
-        });*/
+        });
 
 
         }
